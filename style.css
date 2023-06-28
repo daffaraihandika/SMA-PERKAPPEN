@@ -1,0 +1,71 @@
+body{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#landing-page{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("assets/img/perkapens.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color{
+    position: absolute;
+    opacity: 0.5;  
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
+
+center{
+    z-index: 1;
+}
+
+#profile-page{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.navigation-profile {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+  
+li {
+    display: inline;
+}
+
+.navigation-profile a{
+    text-decoration: none;
+    color: black;
+    /* margin-right: 4rem; */
+    padding: 4rem;
+}
+
+.visi{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#profile-page .content-visi-misi p{
+    padding-top: 20px;
+    text-align: center;
+}
+/* .content-tentang-sekolah{
+    padding-top: 3rem;
+} */
