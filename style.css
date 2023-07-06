@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('assets/fonts/futura/Futura\ Heavy\ font.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Droid';
+    src: url('assets/fonts/droid-serif/DroidSerif.ttf') format('truetype');
+}
+
 body{
     width: 100%;
     height: 100%;
@@ -104,6 +114,179 @@ li {
     padding-top: 20px;
     text-align: center;
 }
-/* .content-tentang-sekolah{
-    padding-top: 3rem;
-} */
+
+#informasi{
+    width: 100%;
+    height: 48rem;
+    background-color: #782C43;
+}
+
+/* Kegiatan Ekstrakurikuler */
+
+#informasi .title{
+    font-family: 'Futura', sans-serif;
+    color: #EEE2DE;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+#informasi .wrapper{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#informasi .wrapper .sidebar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#informasi .wrapper .card{
+    width: 100%;
+    height: 260px;
+    position: relative;
+    background-color: transparent;
+}
+
+#informasi .wrapper .foto-eskul{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#informasi .wrapper .btn-sidebar:focus,
+#informasi .wrapper .btn-sidebar:active {
+  box-shadow: none;
+}
+
+#informasi .wrapper .btn-sidebar{
+    border: none;
+    font-family: 'Futura', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    position: relative;
+}
+
+#informasi .wrapper .btn-sidebar.btn-active::after {
+  display: none;
+}
+
+#informasi .sidebar .btn-active{
+    background-color: #EBC530;
+    color: #782C43;
+}
+
+#informasi .wrapper .btn-sidebar::after{
+    content: '';
+    width: 35%;
+    height: 3px;
+    background: #EBC530;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+#informasi .title-eskul{
+    font-family: 'Futura', sans-serif;
+    color: #EEE2DE;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#informasi .description-eskul{
+    font-family: 'Droid', sans-serif;
+    font-size: 15px;
+}
+
+#informasi .icon-informasi{
+    width: 15px;
+}
+
+#informasi .informasi-eskul{
+    font-family: 'Futura', sans-serif;
+    color: #EEE2DE;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#informasi .kegiatan-eskul{
+    border-left: 4px solid #EBC530;
+}
+
+#informasi .kegiatan-eskul .kanan{
+    text-align: end;
+    margin-bottom: 15px;
+}
+
+#informasi .kegiatan-eskul .kiri{
+    margin-bottom: 25px;
+}
+
+/* Fasilitas dan Infrastruktur */
+#informasi .fasilitas-infrastruktur img{
+    width: 100%;
+    height: 270px;
+    /* opacity: 0.6; */
+}
+
+#informasi .fasilitas-infrastruktur .wrap::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 100%);
+  }
+
+#informasi .fasilitas-infrastruktur .wrap{
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#informasi .row{
+    padding-left: 20px;
+}
+
+#informasi .fasilitas-infrastruktur{
+    border-left: 4px solid #EBC530;
+}
+
+#informasi .fasilitas-infrastruktur .title{
+    font-size: 20px;
+    padding-top: 0;
+    margin-bottom: 0;
+    font-family: 'Futura', sans-serif;
+    color: #fff;
+    text-transform: none;
+}
+
+#informasi .fasilitas-infrastruktur .description{
+    color: #fff;
+    font-family: 'Droid', sans-serif;
+    font-size: 12px;
+}
+
+#informasi .fasilitas-infrastruktur .text-overlay{
+    position: absolute;
+    bottom: 0 ;
+    left: 0;
+    padding: 15px;
+}
+
+#informasi .content{
+    display: none;
+}
+
+#informasi .content-informasi-active{
+    display: block;
+}

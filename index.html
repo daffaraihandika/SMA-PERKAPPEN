@@ -35,7 +35,7 @@
                         href="#home">Beranda</a>
                     <a class="nav-link text-dark ms-3 animate_animated animate_fadeInDown" href="#profile-page">Profil</a>
                     <a class="nav-link text-dark ms-3 animate_animated animate_fadeInDown"
-                        href="#projects">Informasi</a>
+                        href="#informasi">Informasi</a>
                     <a class="nav-link text-dark ms-3 animate_animated animate_fadeInDown" href="#contact">Galeri</a>
                     <a class="nav-link text-dark ms-3 animate_animated animate_fadeInDown" href="#contact">Hubungi
                         Kami</a>
@@ -58,7 +58,6 @@
     <!-- Landing Page -->
 
     <!-- Profile Page -->
-
     <section id="profile-page">
         <div class="container-fluid">
             <center>
@@ -139,21 +138,116 @@
                         </div>
                 </center>
             </div>
-            <!-- <div class="mapouter">
-            <div class="gmap_canvas">
-                <iframe width="80%" height="400px" id="gmap_canvas" src="https://maps.google.com/maps?q=sma%20perkappen&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                <a href="https://123movies-to.org">123movies</a>
-                <br>
-                <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
-                <a href="https://www.embedgooglemap.net"></a>
-                <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
-            </div>
-        </div> -->
-            <!-- Lokasi -->
     </section>
     <!-- Profile Page -->
 
     <!-- Informasi -->
+    <section id="informasi">
+        <!-- Sidebar -->
+        <div class="container-fluid">
+            <h1 class="title text-light text-center">Informasi Sekolah</h1>
+            
+            <div class="row wrapper">
+                <div class="col-md-3 d-flex flex-column align-items-start justify-content-center">
+                    <div class="row sidebar">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light btn-sidebar btn-active" onclick="openTabs('kegiatan-eskul')">Kegiatan Ekstrakurikuler</button>
+                        </div>
+                    </div>
+                    <div class="row sidebar">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light btn-sidebar" onclick="openTabs('fasilitas-infrastruktur')">Fasilitas dan Infrastuktur</button>
+                        </div>
+                    </div>
+                    <div class="row sidebar">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light btn-sidebar">Kebijakan dan Prosedur</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kegiatan Eskul -->
+                <div class="col-md-9 kegiatan-eskul content content-informasi-active" id="kegiatan-eskul">
+                    <!-- Futsal -->
+                    <div class="row list-eskul kiri">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="assets/img/futsal.png" alt="" class="foto-eskul">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="title-eskul">Futsal</p>
+                            <p class="description-eskul text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium blanditiis accusantium quis fugit aspernatur temporibus quam perspiciatis ad possimus cupiditate voluptatem cumque facere aliquam eum vitae. Quasi velit inventore saepe ducimus esse error repellat deleniti, nostrum, exercitationem modi unde.</p>
+                            <div class="informasi-eskul"></div>
+                            <p class="informasi-eskul text-light">Informasi Mengenai Futsal <span><img src="assets/icon/right-arrow.png" alt="" class="icon-informasi"></span></p>
+                        </div>
+                    </div>
+                    <!-- Basket -->
+                    <div class="row list-eskul kanan">
+                        <div class="col-md-6">
+                            <p class="title-eskul">Basket</p>
+                            <p class="description-eskul text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium blanditiis accusantium quis fugit aspernatur temporibus quam perspiciatis ad possimus cupiditate voluptatem cumque facere aliquam eum vitae. Quasi velit inventore saepe ducimus esse error repellat deleniti, nostrum, exercitationem modi unde.</p>
+                            <p class="informasi-eskul text-light">Informasi Mengenai Basket <span><img src="assets/icon/right-arrow.png" alt="" class="icon-informasi"></span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="assets/img/basket.png" alt="" class="foto-eskul">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fasilitas dan Infrastuktur -->
+                <div class="col-md-9 fasilitas-infrastruktur content" id="fasilitas-infrastruktur">
+                    <div class="row" style="margin-bottom: 20px;">
+                        <div class="col-md-6">
+                            <div class="wrap">
+                                <img src="assets/img/1.jpg" alt="">
+                                <div class="text-overlay">
+                                    <p class="title">Lab IT</p>
+                                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus est suscipit ipsa saepe vitae assumenda soluta asperiores voluptate distinctio in.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="wrap">
+                                <img src="assets/img/2.jpg" alt="">
+                                <div class="text-overlay">
+                                    <p class="title">Ruangan Kelas</p>
+                                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus est suscipit ipsa saepe vitae assumenda soluta asperiores voluptate distinctio in.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="wrap">
+                                <img src="assets/img/3.jpg" alt="">
+                                <div class="text-overlay">
+                                    <p class="title">Lapangan</p>
+                                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus est suscipit ipsa saepe vitae assumenda soluta asperiores voluptate distinctio in.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="wrap">
+                                <img src="assets/img/4.jpg" alt="">
+                                <div class="text-overlay">
+                                    <p class="title">Ruangan Ekskul</p>
+                                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus est suscipit ipsa saepe vitae assumenda soluta asperiores voluptate distinctio in.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    
+            <!-- Kebijakan dan Prosedur -->
+        </div>
+
+
+    </section>
     <!-- Informasi -->
 
     <!-- Galeri -->
