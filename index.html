@@ -148,6 +148,7 @@
             <h1 class="title text-light text-center">Informasi Sekolah</h1>
             
             <div class="row wrapper">
+                <!-- Sidebar -->
                 <div class="col-md-3 d-flex flex-column align-items-start justify-content-center">
                     <div class="row sidebar">
                         <div class="col">
@@ -161,7 +162,7 @@
                     </div>
                     <div class="row sidebar">
                         <div class="col">
-                            <button type="button" class="btn btn-outline-light btn-sidebar">Kebijakan dan Prosedur</button>
+                            <button type="button" class="btn btn-outline-light btn-sidebar" onclick="openTabs('kebijakan-prosedur')">Kebijakan dan Prosedur</button>
                         </div>
                     </div>
                 </div>
@@ -240,10 +241,14 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Kebijakan dan Prosedur -->
+                <div class="col-md-9 kebijakan-prosedur content" id="kebijakan-prosedur">
+                    <embed src="assets/files/test.pdf" type="">
+                </div>
             </div>
             
     
-            <!-- Kebijakan dan Prosedur -->
         </div>
 
 
@@ -252,6 +257,9 @@
 
     <!-- Galeri -->
     <!-- Galeri -->
+
+    <!-- Contact -->
+    <!-- Contact -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

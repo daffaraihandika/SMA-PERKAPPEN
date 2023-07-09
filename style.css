@@ -290,3 +290,14 @@ li {
 #informasi .content-informasi-active{
     display: block;
 }
+
+/* Kebijakan prosedur */
+#informasi .kebijakan-prosedur{
+    border-left: 4px solid #EBC530;
+}
+
+#informasi .kebijakan-prosedur embed{
+    width: 100%;
+    height: 555px;
+    padding-left: 20px;
+}
