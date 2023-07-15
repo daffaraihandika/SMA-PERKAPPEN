@@ -38,10 +38,6 @@ body{
     height: 100vh;
 }
 
-.btn-lihat-selengkapnya{
-    
-}
-
 center{
     z-index: 1;
 }
@@ -300,4 +296,94 @@ li {
     width: 100%;
     height: 555px;
     padding-left: 20px;
+}
+
+#galeri .carousel{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#galeri img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#galeri .title{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Futura', sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#galeri{
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+#contact{
+    background-color: #782C43;
+    padding-top: 2rem;
+    padding-bottom: 20px;
+}
+
+#contact h1{
+    color: #fff;
+    font-family: 'Futura', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 25px;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.underline{
+    position: relative;
+    display: inline-block;
+}
+
+.underline::after{
+    content: '';
+    width: 70%;
+    height: 3px;
+    background: #EBC530;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+    display: block;
+}
+
+#contact img{
+    width: 30px;
+}
+
+#contact .contact-list{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#contact p{
+    color: #fff;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+#contact .wrapper{
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+footer{
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    font-size: 14px;
 }
