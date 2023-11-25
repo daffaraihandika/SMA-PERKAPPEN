@@ -18,10 +18,10 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #fff;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
         <div class="container">
             <a class="navbar-brand text-dark" href="#">
-                <img src="assets/img/logoOsis.png" alt="" width="30px" class="d-inline-block align-middle">
+                <img src="assets/img/logoOsis.png" alt="" width="30px" class="d-inline-block align-middle me-2">
                 SMA PERKAPEN SINUMBRA
             </a>
             <button class="navbar-toggler navbar-toggler-start" type="button" data-bs-toggle="collapse"
@@ -50,8 +50,8 @@
         <center>
             <img class="color" src="assets/img/Black.png" alt="">
             <h1 style="color: white;">SMA PERKAPPEN SINUMBRA</h1>
-            <a href="">
-                <button type="button" class="btn btn-outline-light btn-lihat-selengkapnya">Lihat Selengkapnya</button>
+            <a href="#profile-page">
+                <button type="button" class="btn btn-lihat-selengkapnya">EKSPLOR</button>
             </a>
         </center>
     </section>
@@ -60,14 +60,16 @@
     <!-- Profile Page -->
     <section id="profile-page">
         <div class="container-fluid">
-            <center>
-                <ul class="navigation-profile">
-                    <p class="tab-link link-active" onclick="openTab('tentang-sekolah')">Tentang Sekolah</p>
-                    <p class="tab-link" onclick="openTab('visi-misi')">Visi Misi</p>
-                    <p class="tab-link" onclick="openTab('lokasi')">Lokasi</p>
-                </ul>
-            </center>
-
+            <img class="color-white" src="assets/img/white.jpg" alt="">
+            <!-- <img class="color-white" src="assets/img/Black.png" alt=""> -->
+            <ul class="navigation-profile">
+                <div class="row justify-content-start">
+                    <div class="col-md-4"><p class="tab-link link-active" onclick="openTab('tentang-sekolah')">Tentang Sekolah</p></div>
+                    <div class="col-md-4"><p class="tab-link" onclick="openTab('visi-misi')">Visi Misi</p></div>
+                    <div class="col-md-4"><p class="tab-link" onclick="openTab('lokasi')">Lokasi</p></div>
+                </div>
+            </ul>
+            
             <!-- Tentang Sekolah -->
             <div class="container tab-content content-active" id="tentang-sekolah">
                 <div class="content-tentang-sekolah">
@@ -78,7 +80,9 @@
                             </center>
                           </div>
                           <div class="col-md-6">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident optio officia repellendus quia veritatis corporis, sequi aspernatur consequatur maiores et sapiente odit ducimus atque iste enim alias rem minus saepe veniam molestiae non porro. Nobis dignissimos quod itaque pariatur natus totam aliquid perferendis, saepe reiciendis illum facere sapiente corporis quia?
+                            <p class="teks-tentang-sekolah">
+                                SMA Pekappen Sinumbra terletak di Jalan PTPN VIII Sinumbra Kelurahan Indragiri Kecamatan Rancabali Kabupaten Bandung. Lokasi ini  berada di ruas jalan kabupaten, daerah perkampungan yang indah dan sejuk. SMA  Perkappen Sinumbra berada di lingkungan perkebunan teh PTPN VIII Sinumbra dan berdekatan dengan pabrik teh perkebunan sinumbra.
+                            </p>
                           </div>
                         </div>
                 </div>
@@ -90,16 +94,44 @@
                 <div class="content-visi-misi">
                     <div class="row">
                         <div class="col-md-6 visi">
-                            <center>
-                                <h1>Visi</h1>
-                            </center>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque veniam quae quam ipsum obcaecati beatae voluptates, cum velit eos sapiente.</p>
+                            <div class="wrapper">
+                                <center>
+                                    <h1>Visi</h1>
+                                </center>
+                                <p>Mewujudkan insan sekolah yang berdaya saing, berbudaya, kreatif dan religius (Sabukres)</p>
+                                <span>
+                                    <br>Indikator Visi SMA Perkappen Sinumbra adalah:
+                                    <br>1. Beriman, bertaqwa dan berbudi luhur dalam kehidupan sehari-hari
+                                    <br>2. Memiliki kecintaan terhadap bangsa dan Negara Indonesia.
+                                    <br>3. Berpengetahuan dan mengenal teknologi melalui pembelajaran esensial sesuai dengan kurikulum
+                                    <br>4. Kreatif  dalam  keterampilan, seni budaya dan olahraga secara berkelanjutan
+                                    <br>5. Adanya pencapain prestasi  dalam bidang akademik dan non akademik
+                                    <br>6. Memiliki pendidik dan tenaga kependidikan yang terampil dan handal
+                                    <br>7. Adanya pencapaian prestasi dalam persaingan untuk diterima di perguruan tinggi negeri maupun swasta.
+                                    <br>8. Tercapaianya projek penguatan profil pelajar pancasila ( P5 )
+                                    <br>9. Memiliki karakter pembelajaran dan pengembangan diri yang terintegrasi dalam pendidikan lingkungan hidup dan organisasi
+                                    <br>10. Memiliki kecintaan terhadap budaya membaca dan menulis dimanapun berada.
+                                </span>
+                            </div>
                         </div>
                         <div class="col-md-6 visi">
-                            <center>
-                                <h1>Misi</h1>
-                            </center>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis veritatis reiciendis temporibus magnam repellat similique cum vero recusandae illum! Molestias!</p>
+                            <div class="wrapper">
+                                <center>
+                                    <h1>Misi</h1>
+                                </center>
+                                <p>Untuk mencapai visi dan membentuk Karakter Profil Pelajar Pancasila, maka  SMA Perkappen menetapkan misi sebagai berikut : </p>
+                                <span class="misi">
+                                    <br>1. Membentuk peserta didik yang beriman dan bertaqwa kepada Tuhan Yang Maha  Esa.
+                                    <br>2. Mengembangkan karakter peserta didik untuk cinta tanah air
+                                    <br>3. Meningkatkan pembelajaran esensial dalam perkembangan pendidikan yang masa kini
+                                    <br>4. Mengembangkan sikap kritis, kreatif, komunikatif, dan kolaboratif melalui  intrakurikuler dan projek profil pelajar Pancasila.
+                                    <br>5. Membekali peserta didik dengan pengetahuan dan keterampilan supaya setelah lulus mampu hidup mandiri dan dterima di dunia kerja
+                                    <br>6. Meningkatkan kualitas pendidik dan tenaga kependidikan melalui peningkatan profesi.
+                                    <br>7. Menjalin hubungan dengan lembaga-lembaga pendidikan baik lokal, nasional  maupun internasional dengan mengembangkan potensi diri peserta didik menjadi manusia yang tangguh  menghadapi persaingan global.
+                                    <br>8. Mengembangkan sikap kritis, kreatif, komunikatif, dan kolaboratif melalui  intrakurikuler dan projek profil pelajar Pancasila.
+                                    <br>9. Mengembangkan peserta didik melalui kegiatan intrakurikuler maupun  ekstrakurikuler serta menciptakan lingkungan bersih, hijau, sejuk, rindang, aman, nyaman dan  berwawasan wiyata mandala.
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -109,34 +141,35 @@
             <!-- Lokasi -->
             <div class="container tab-content" id="lokasi">
                 <center>
-                    <div class="lokasi" style="width: 80%; height: 400px; background-color: aqua;">
-                        <div class="gmap_canvas" style="width: 100%;"><iframe width="100%" height="500" id="gmap_canvas"
-                                src="https://maps.google.com/maps?q=sma%20perkappen&t=k&z=17&ie=UTF8&iwloc=&output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                            <a href="https://fmovies-online.net">fmovies</a><br>
-                            <style>
-                                .mapouter {
-                                    position: relative;
-                                    text-align: right;
-                                    height: 500px;
-                                    width: 500px;
-                                }
-                            </style>
-                            <a href="https://www.embedgooglemap.net">how to embed google maps into html</a>
-                            <style>
-                                .gmap_canvas {
-                                    overflow: hidden;
-                                    background: none !important;
-                                    height: 500px;
-                                    width: 500px;
-                                }
-                            </style>
+                    <div class="wrapper-lokasi">
+                        <div class="lokasi" style="width: 100%;">
+                            <div class="gmap_canvas" style="width: 90%;"><iframe width="100%" height="400" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=sma%20perkappen&t=k&z=17&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                <!-- <a href="https://fmovies-online.net">fmovies</a><br> -->
+                                <style>
+                                    .mapouter {
+                                        position: relative;
+                                        text-align: right;
+                                        height: 500px;
+                                        width: 500px;
+                                    }
+                                </style>
+                                <!-- <a href="https://www.embedgooglemap.net">how to embed google maps into html</a> -->
+                                <style>
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        background: none !important;
+                                        
+                                        width: 500px;
+                                    }
+                                </style>
+                            </div>
+                            <div class="alamat-lokasi" style="width: 80%;">
+                                <p>JL. PTPN VIII SINUMBRA, Indragiri, Kec. Rancabali, Kab. Bandung Prov. Jawa Barat</p>
+                            </div>
                         </div>
-                        <div class="alamat-lokasi" style="width: 80%;">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam accusantium repudiandae
-                                beatae similique dicta facere rem, sequi eligendi laboriosam voluptates.</p>
-                        </div>
-                </center>
+                    </center>
             </div>
     </section>
     <!-- Profile Page -->
@@ -169,38 +202,78 @@
 
                 <!-- Kegiatan Eskul -->
                 <div class="col-md-9 kegiatan-eskul content content-informasi-active" id="kegiatan-eskul">
-                    <!-- Futsal -->
-                    <div class="row list-eskul kiri">
-                        <div class="col-md-6">
-                            <div class="card">
-                                <img src="assets/img/futsal.png" alt="" class="foto-eskul">
+                    <div class="carousel slide" id="myCarousel" data-bs-ride="carousel">
+                                                
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <!-- Futsal -->
+                                <div class="row list-eskul kiri">
+                                    <div class="col-md-6">
+                                        <div class="card">
+                                            <img src="assets/img/futsal.png" alt="" class="foto-eskul">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="title-eskul underline">Futsal</p>
+                                        <p class="description-eskul text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium blanditiis accusantium quis fugit aspernatur temporibus quam perspiciatis ad possimus cupiditate voluptatem cumque facere aliquam eum vitae. Quasi velit inventore saepe ducimus esse error repellat deleniti, nostrum, exercitationem modi unde.</p>
+                                        <div class="informasi-eskul"></div>
+                                        <p class="informasi-eskul text-light">Informasi Mengenai Futsal <span><img src="assets/icon/right-arrow.png" alt="" class="icon-informasi"></span></p>
+                                    </div>
+                                </div>
+                                <!-- Basket -->
+                                <div class="row list-eskul kanan">
+                                    <div class="col-md-6">
+                                        <p class="title-eskul underline">Basket</p>
+                                        <p class="description-eskul text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium blanditiis accusantium quis fugit aspernatur temporibus quam perspiciatis ad possimus cupiditate voluptatem cumque facere aliquam eum vitae. Quasi velit inventore saepe ducimus esse error repellat deleniti, nostrum, exercitationem modi unde.</p>
+                                        <p class="informasi-eskul text-light">Informasi Mengenai Basket <span><img src="assets/icon/right-arrow.png" alt="" class="icon-informasi"></span></p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card">
+                                            <img src="assets/img/basket.png" alt="" class="foto-eskul">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <p class="title-eskul underline">Futsal</p>
-                            <p class="description-eskul text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium blanditiis accusantium quis fugit aspernatur temporibus quam perspiciatis ad possimus cupiditate voluptatem cumque facere aliquam eum vitae. Quasi velit inventore saepe ducimus esse error repellat deleniti, nostrum, exercitationem modi unde.</p>
-                            <div class="informasi-eskul"></div>
-                            <p class="informasi-eskul text-light">Informasi Mengenai Futsal <span><img src="assets/icon/right-arrow.png" alt="" class="icon-informasi"></span></p>
-                        </div>
-                    </div>
-                    <!-- Basket -->
-                    <div class="row list-eskul kanan">
-                        <div class="col-md-6">
-                            <p class="title-eskul underline">Basket</p>
-                            <p class="description-eskul text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium blanditiis accusantium quis fugit aspernatur temporibus quam perspiciatis ad possimus cupiditate voluptatem cumque facere aliquam eum vitae. Quasi velit inventore saepe ducimus esse error repellat deleniti, nostrum, exercitationem modi unde.</p>
-                            <p class="informasi-eskul text-light">Informasi Mengenai Basket <span><img src="assets/icon/right-arrow.png" alt="" class="icon-informasi"></span></p>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card">
-                                <img src="assets/img/basket.png" alt="" class="foto-eskul">
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <!-- Futsal -->
+                                <div class="row list-eskul kiri">
+                                    <div class="col-md-6">
+                                        <div class="card">
+                                            <img src="assets/img/futsal.png" alt="" class="foto-eskul">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="title-eskul underline">Futsal</p>
+                                        <p class="description-eskul text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium blanditiis accusantium quis fugit aspernatur temporibus quam perspiciatis ad possimus cupiditate voluptatem cumque facere aliquam eum vitae. Quasi velit inventore saepe ducimus esse error repellat deleniti, nostrum, exercitationem modi unde.</p>
+                                        <div class="informasi-eskul"></div>
+                                        <p class="informasi-eskul text-light">Informasi Mengenai Futsal <span><img src="assets/icon/right-arrow.png" alt="" class="icon-informasi"></span></p>
+                                    </div>
+                                </div>
+                                <!-- Basket -->
+                                <div class="row list-eskul kanan">
+                                    <div class="col-md-6">
+                                        <p class="title-eskul underline">Basket</p>
+                                        <p class="description-eskul text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium blanditiis accusantium quis fugit aspernatur temporibus quam perspiciatis ad possimus cupiditate voluptatem cumque facere aliquam eum vitae. Quasi velit inventore saepe ducimus esse error repellat deleniti, nostrum, exercitationem modi unde.</p>
+                                        <p class="informasi-eskul text-light">Informasi Mengenai Basket <span><img src="assets/icon/right-arrow.png" alt="" class="icon-informasi"></span></p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card">
+                                            <img src="assets/img/basket.png" alt="" class="foto-eskul">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </div> 
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                        </ol>                     
                     </div>
-                </div>
+                </div>                
                 
                 <!-- Fasilitas dan Infrastuktur -->
                 <div class="col-md-9 fasilitas-infrastruktur content" id="fasilitas-infrastruktur">
-                    <div class="row" style="margin-bottom: 20px;">
+                    <div class="row">
                         <div class="col-md-6">
                             <div class="wrap">
                                 <img src="assets/img/1.jpg" alt="">
@@ -215,6 +288,46 @@
                                 <img src="assets/img/2.jpg" alt="">
                                 <div class="text-overlay">
                                     <p class="title">Ruangan Kelas</p>
+                                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus est suscipit ipsa saepe vitae assumenda soluta asperiores voluptate distinctio in.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="wrap">
+                                <img src="assets/img/1.jpg" alt="">
+                                <div class="text-overlay">
+                                    <p class="title">Lab IT</p>
+                                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus est suscipit ipsa saepe vitae assumenda soluta asperiores voluptate distinctio in.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="wrap">
+                                <img src="assets/img/2.jpg" alt="">
+                                <div class="text-overlay">
+                                    <p class="title">Ruangan Kelas</p>
+                                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus est suscipit ipsa saepe vitae assumenda soluta asperiores voluptate distinctio in.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="wrap">
+                                <img src="assets/img/3.jpg" alt="">
+                                <div class="text-overlay">
+                                    <p class="title">Lapangan</p>
+                                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus est suscipit ipsa saepe vitae assumenda soluta asperiores voluptate distinctio in.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="wrap">
+                                <img src="assets/img/4.jpg" alt="">
+                                <div class="text-overlay">
+                                    <p class="title">Ruangan Ekskul</p>
                                     <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus est suscipit ipsa saepe vitae assumenda soluta asperiores voluptate distinctio in.</p>
                                 </div>
                             </div>
@@ -257,31 +370,88 @@
 
     <!-- Galeri -->
     <section id="galeri">
-        <div class="container-fluid">
+        <div class="container-fluid" style="padding-right: 5%;">
             <div class="row">
-                <div class="col-md-3 d-flex flex-column align-items-center justify-content-center title">Galeri SMA PERKAPEN SINUMBRA</div>
-                <div class="col-md-9 d-flex justify-content-center">
-                    <div id="carouselExampleInterval" class="carousel slide carousel-center" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active" data-bs-interval="2000">
-                            <img src="assets/img/1.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/img/2.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/img/3.jpg" class="d-block w-100" alt="...">
-                          </div>
+                <div class="col-md-3 d-flex flex-column align-items-center justify-content-center title">Galeri<br> <span class="subtitle">SMA PERKAPEN SINUMBRA</span></div>
+                <div class="col-md-9 justify-content-start content" >
+                    <div class="row justify-content-start">
+                        <div class="col-md-3 galeri-sekolah">
+                            <div class="card">
+                                <img src="assets/img/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Kegiatan MPLS</p>
+                                </div>
+                            </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
+                        <div class="col-md-3 galeri-sekolah">
+                            <div class="card">
+                                <img src="assets/img/2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Kegiatan MPLS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 galeri-sekolah">
+                            <div class="card">
+                                <img src="assets/img/3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Kegiatan MPLS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-start">
+                        <div class="col-md-3 galeri-sekolah">
+                            <div class="card">
+                                <img src="assets/img/4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Kegiatan MPLS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 galeri-sekolah">
+                            <div class="card">
+                                <img src="assets/img/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Kegiatan MPLS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 galeri-sekolah">
+                            <div class="card">
+                                <img src="assets/img/2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Kegiatan MPLS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-start">
+                        <div class="col-md-3 galeri-sekolah">
+                            <div class="card">
+                                <img src="assets/img/4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Kegiatan MPLS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 galeri-sekolah">
+                            <div class="card">
+                                <img src="assets/img/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Kegiatan MPLS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 galeri-sekolah">
+                            <div class="card">
+                                <img src="assets/img/2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Kegiatan MPLS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
